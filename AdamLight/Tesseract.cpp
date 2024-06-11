@@ -419,7 +419,7 @@ void loop() {
 	GLenum DrawBuffers2[3] = {GL_COLOR_ATTACHMENT0, GL_COLOR_ATTACHMENT1, GL_COLOR_ATTACHMENT4};
 	glDrawBuffers(3, DrawBuffers2);
 	
-	if (glfwGetKey(window, GLFW_KEY_L) != GLFW_RELEASE)
+	if (glfwGetKey(window, GLFW_KEY_L) == GLFW_RELEASE)
 		uFilterFBOToFBO(0, sdSSR, resSX, resSY, 5, gBuffer[3], gBuffer[2], gBuffer[4], gBuffer[5], blueNoiseTex);
 	else
 		uFilterFBOToFBO(0, sdGamma, resSX, resSY, 1, gBuffer[4]);
