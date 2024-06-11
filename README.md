@@ -1,5 +1,5 @@
 # AdamLight
-#### A straightforward deferred graphics engine in C++ / OpenGL.
+
 ![screenshot](screenshot2.png?raw=true "engine screenshot showing shadows, normal mapping, screen-space reflections")
 
 This is a straightforward deferred graphics engine in C++ / OpenGL. I wrote it **a long time ago** (I was 15 years old) — needless to say, if I were to write another, I would do things very differently.
