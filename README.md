@@ -9,7 +9,7 @@ It has some basic features:
 * Deferred rendering
 * Shadow mapping
 * Normal mapping
-* Gamma-correct rendering (I think?)
+* Gamma-correct rendering
 * Screen-space reflections
 * .obj/.mtl model loading
 
