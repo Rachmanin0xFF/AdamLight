@@ -4,7 +4,7 @@
 
 This is a straightforward deferred graphics engine (really more of a demo) in C++ / OpenGL. I wrote it *a long time ago* (I was 15 years old) — needless to say, if I were to write another, I would do things very differently.
 
-It has some basic features:
+This version has some basic features:
 
 * Deferred rendering
 * Shadow mapping
